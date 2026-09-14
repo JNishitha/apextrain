@@ -184,6 +184,18 @@ export const engagements: Engagement[] = [
     image: '/sessions/ideal-public-kolkata.jpeg',
     imageAlt: 'Apex Training addressing students and staff at Ideal Public School, Kolkata',
   },
+  {
+    school: 'Kotak Salesian School',
+    work: ['Student and educator engagement'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1743936171924-i5xP6vzS2Vpvj7sM5LFJobwbBRLC2L.jpeg',
+    imageAlt: 'Apex Training session with participants at Kotak Salesian School',
+  },
+  {
+    school: 'Vizag Library',
+    work: ['Personality Development session', 'For UPSC, HR, and Banking aspirants'],
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1739537168079-yAX5ojHzjCPJWhuC08Hlwt82dQR5nW.jpeg',
+    imageAlt: 'Personality Development session for UPSC, HR, and Banking aspirants at Vizag Library',
+  },
 ]
 
 export const stats = [
