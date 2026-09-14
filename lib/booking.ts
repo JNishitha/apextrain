@@ -136,9 +136,12 @@ export function teamMailto(b: BookingDetails) {
     `Service of interest: ${b.service || 'Not provided'}`,
     `Message: ${b.message || 'Not provided'}`,
   ].join('\n')
+  // The visitor's email is added as CC so their mail client can send the same
+  // booking request to Nafisa and back to the person who submitted it.
+  const cc = b.email ? `&cc=${encodeURIComponent(b.email)}` : ''
   return `mailto:${contactInfo.email}?subject=${encodeURIComponent(
     subject,
-  )}&body=${encodeURIComponent(body)}`
+  )}&body=${encodeURIComponent(body)}${cc}`
 }
 
 export function enquiryMailto(fields: {

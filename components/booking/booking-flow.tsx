@@ -325,10 +325,10 @@ export function BookingFlow() {
           >
             Confirm Booking <ArrowRight />
           </Button>
-          <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-            On confirmation you&apos;ll get a calendar invite and an email to our team opens
-            pre-filled, no account needed.
-          </p>
+      <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
+        Your email app will open a pre-filled message addressed to Nafisa and copied to you.
+        Press Send to deliver the booking request and keep a copy for your records.
+      </p>
         </div>
       </aside>
     </form>
