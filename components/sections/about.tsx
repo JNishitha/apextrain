@@ -36,6 +36,45 @@ export function About() {
               environments and people equipped to handle real life.
             </p>
 
+            <div className="mt-10">
+              <p className="text-sm font-semibold tracking-wide text-primary uppercase">Meet the partners</p>
+              <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                <article className="rounded-2xl border border-border bg-secondary/60 p-5">
+                  <div className="flex items-start gap-3">
+                    <div className="flex size-11 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
+                      NB
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-foreground">Nafisa Barodawala</h3>
+                      <p className="mt-1 text-sm font-medium text-primary">Partner, Apex Training</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                    Nafisa brings together Apex Training&apos;s work across student development,
+                    educator wellbeing, leadership, and institutional improvement—turning real
+                    challenges into practical, people-centred learning experiences.
+                  </p>
+                </article>
+
+                <article className="rounded-2xl border border-border bg-secondary/60 p-5">
+                  <div className="flex items-start gap-3">
+                    <div className="flex size-11 shrink-0 items-center justify-center rounded-full bg-accent text-sm font-bold text-accent-foreground">
+                      SS
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-foreground">Sita Srinivas</h3>
+                      <p className="mt-1 text-sm font-medium text-primary">Story Ma&apos;am · Partner</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
+                    An educator, storyteller, voice artist, and teacher trainer with nearly 20 years
+                    of experience. Sita creates memorable learning through stories, voice, and
+                    creative pedagogy, empowering children and educators with practical strategies.
+                  </p>
+                </article>
+              </div>
+            </div>
+
             <div className="mt-8 grid gap-5 sm:grid-cols-3">
               {beliefs.map((belief) => (
                 <div key={belief.title} className="border-l-2 border-turquoise pl-4">
