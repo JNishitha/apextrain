@@ -231,10 +231,9 @@ export const roleOptions = [
   'Other',
 ]
 
-// Phone is a placeholder — replace with the real Apex Training number.
 export const contactInfo = {
   email: 'nafisa.6soft@gmail.com',
-  phone: '+91 00000 00000',
+  phone: '+91 98858 24633',
   location: 'India',
   timezone: 'Asia/Kolkata',
 }
