@@ -22,7 +22,7 @@ export function ApexLogo({
       <img
         src="/apex-training-logo.jpeg"
         alt="Apex Training logo"
-        className="h-16 w-auto sm:h-18"
+        className="h-20 w-auto sm:h-22"
       />
     </Link>
   )
