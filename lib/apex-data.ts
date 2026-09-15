@@ -157,14 +157,14 @@ export const engagements: Engagement[] = [
   {
     school: 'Pollocks School',
     work: ['Student training', 'Stress and resilience workshops'],
-    image: '/sessions/pollocks-school.jpeg',
+    image: '/sessions/nirmala-school.jpeg',
     imageAlt: 'Apex Training student session on reasons for stress at Pollocks School',
   },
   {
     school: 'Nirmala School',
     work: ['Student training', 'Mental health awareness session'],
-    image: '/sessions/nirmala-school.jpeg',
-    imageAlt: 'Apex Training presenting on the hidden mental health crisis at Nirmala School',
+    image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1781517363290-dA2FSX9lBXbmHDF138KvQUBMsR75sD.jpeg',
+    imageAlt: 'Apex Training session with teachers at Nirmala School',
   },
   {
     school: 'Holy Spirit School',
@@ -175,13 +175,13 @@ export const engagements: Engagement[] = [
   {
     school: 'Bhavans Public School',
     work: ['Teacher training', 'Coping strategies workshops'],
-    image: '/sessions/bhavans-school.jpeg',
+    image: '/sessions/ideal-public-kolkata.jpeg',
     imageAlt: 'Apex Training coping strategies workshop at Bhavans Public School',
   },
   {
     school: 'Ideal Public School, Kolkata',
     work: ['Student training', 'Teacher training'],
-    image: '/sessions/ideal-public-kolkata.jpeg',
+    image: '/sessions/bhavans-school.jpeg',
     imageAlt: 'Apex Training addressing students and staff at Ideal Public School, Kolkata',
   },
   {
